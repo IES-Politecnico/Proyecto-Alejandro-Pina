@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 182, 182);
+}
+
+table {
+    width: 25%;
+
+border-collapse: collapse;
+
+background-color: #94eb6c;
+}
+td {
+
+border: 1px solid black;
+
+text-align: center;
+
+}
+
+#noticia1{
+    background-color: burlywood;
+}
+
+#noticia2{
+    background-color: cadetblue;
+}
+
+#noticia3{
+    background-color: olivedrab ;
+}
+
+#noticia4{
+    background-color: olivedrab ;
+}
+
+#noticia5{
+    background-color: burlywood;
+}
+
+#noticia6{
+    background-color: cadetblue;
+}
