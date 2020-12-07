@@ -1,41 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <link rel="icon" href="icons/coche-de-carreras-con-faldones-laterales.png">
     <meta name="robots" content="all">
-    <meta name="keywords" content="Ferrari, Lamborghini, McLaren, Tesla, Bugatti, Aston Martin, Porsche, Mercedes, Ford, Mazda">
-    <meta name="description" content="Informacion de los nuevos y mas novedosos coches supereportivos, repasando sus especificaciones, valor de venta, etc.">
+    <meta name="keywords"
+        content="Ferrari, Lamborghini, McLaren, Tesla, Bugatti, Aston Martin, Porsche, Mercedes, Ford, Mazda">
+    <meta name="description"
+        content="Informacion de los nuevos y mas novedosos coches supereportivos, repasando sus especificaciones, valor de venta, etc.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HotWheels</title>
     <link rel="stylesheet" href="css/estilogeneral.css">
- </head>
+</head>
 <body style="text-align: center;">
+<header>
     <h1 style="color: #AC0303;"> HotWheels</h1>
-    <img src="imagenes/21960.jpg" height="450" alt="superdeportivos">
-    <div id="noticia1">
-        <p><a href="articles/noticia1.html">¡Nuevo Lamborghini Huracan STO!</a></p>
-        <img src="imagenes/lamborghini-huracan-sto-1605713331.jpg" height="350" alt="Lamborghini Huracan STO">
-    </div>
-    <div id="noticia2">
-        <p><a href="articles/noticia2.html">¡Nuevo Ferrari SF90 Stradale!</a></p>
-        <img src="imagenes/Red_2019_Ferrari_SF90_Stradale_(48264238897)_(cropped).jpg" height="325" alt="Ferrari SF90 Stradale">
-    </div>
-    <div id="noticia3">
-        <p><a href="articles/noticia3.html">El Bugatti Chiron Super Sport 300+ rompe un nuevo record alcanzando la mayor velocidad punta del mundo</a></p>
-        <img src="imagenes/bugatti-chiron-sport-300-lujo-kdgG--620x349@abc.jpg" height="350" alt="Bugatti Chiron Super Sport 300+">
-    </div>   
-    <div id="noticia4">
-        <p><a href="articles/noticia4.html">El superdeportivo con más aceleración del mundo</a></p>
-        <img src="imagenes/rimac-ctwo-vendido.jpg" height="350" alt="Rimac CTwo">
-    </div>
-    <div id="noticia5">
-        <p><a href="articles/noticia5.html">El primer Lamborghini todoterreno</a></p>
-        <img src="imagenes/lamborghiniurusenlacalle.jpg" height="425" alt="Lamborghini Urus">
-    </div>
-    <div id="noticia6">
-        <p><a href="articles/noticia6.html">Nuevo Ferrari SF90 Spider</a></p>
-        <img src="imagenes/spider2.jpg" height="350" alt="Ferrari SF90 Spider">
-    </div>
+    <picture>
+        <source media="(max-width: 799px)" srcset="imagenes/imagenprincipal_250px.jpg">
+        <source media="(min-width: 800px)" srcset="imagenes/imagenprincipal_500px.jpg">
+        <img src="imagenes/imagenprincipal_500px.jpg" alt="supereportivos">
+    </picture>
+    <nav>
+        <a href="#Lamborghini">
+            <img src="icons/Lamborghini.png" alt="Botón Lamborghini">
+        </a>
+        <a href="#Records">
+            <img src="icons/Records.png" alt="Botón Records">
+        </a>
+        <a href="#Ferrari">
+            <img src="icons/Ferrari.png" alt="Botón Ferrari">
+        </a>
+    </nav>
+</header>
+<main>
+    <section id="Lamborghini">
+        <article id="noticia1">
+            <h2>Lamborghini</h2>
+            <p>¡Nuevo Lamborghini Huracan STO!</p>
+            <p><a href="articles/noticia1.html">leer más...</a></p>
+            <a href="articles/noticia1.html">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="imagenes/lamborghinihuracanSTO250px.jpg">
+                    <source media="(min-width: 800px)" srcset="imagenes/lamborghinihuracanSTO500px.jpg">
+                    <img src="imagenes/lamborghinihuracanSTO500px.jpg" alt="Huracan sto">
+                </picture>
+            </a>
+        </article>
+        <article id="noticia5">
+            <p>El primer Lamborghini todoterreno</p>
+            <p><a href="articles/noticia5.html">leer más...</a></p>
+            <a href="articles/noticia5.html">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="imagenes/lamborghiniurus250px.jpg">
+                    <source media="(min-width: 800px)" srcset="imagenes/lamborghiniurus500px.jpg">
+                    <img src="imagenes/lamborghiniurus500px.jpg" alt="Lamborghini Urus">
+                </picture>
+            </a>
+        </article>
+    </section>
+    <section id="Records">
+        <article id="noticia3">
+            <h2>Records</h2>
+            <p>El Bugatti Chiron Super Sport 300+ rompe un nuevo record alcanzando la mayorvelocidad punta del mundo
+            </p>
+            <p><a href="articles/noticia3.html">leer más...</a></p>
+            <a href="articles/noticia3.html">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="imagenes/bugattichiron250px.jpg">
+                    <source media="(min-width: 800px)" srcset="imagenes/bugattichiron500px.jpg">
+                    <img src="imagenes/bugattichiron500px.jpg" alt="Bugatti Chiron">
+                </picture>
+            </a>
+        </article>
+        <article id="noticia4">
+            <p>El superdeportivo con más aceleración del mundo</p>
+            <p><a href="articles/noticia4.html">leer más...</a></p>
+            <a href="articles/noticia4.html">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="imagenes/rimac250px.jpg">
+                    <source media="(min-width: 800px)" srcset="imagenes/rimac500px.jpg">
+                    <img src="imagenes/rimac500px.jpg" alt="Rimarc">
+                </picture>
+            </a>
+        </article>
+    </section>
+    <section id="Ferrari">
+        <article id="noticia2">
+            <h2>Ferrari</h2>
+            <p>Nuevo Ferrari SF90 Stradale</p>
+            <p><a href="articles/noticia2.html">leer más...</a></p>
+            <a href="articles/noticia2.html">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="imagenes/ferrarisf90250px.jpg">
+                    <source media="(min-width: 800px)" srcset="imagenes/ferrarisf90500px.jpg">
+                    <img src="imagenes/ferrarisf90500px.jpg" alt="Ferrari SF90 Stradeable">
+                </picture>
+            </a>
+        </article>
+        <article id="noticia6">
+            <p>Nuevo Ferrari SF90 Spider</p>
+            <p><a href="articles/noticia6.html">leer más...</a></p>
+            <a href="articles/noticia6.html">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="imagenes/spider250px.jpg">
+                    <source media="(min-width: 800px)" srcset="imagenes/spider500px.jpg">
+                    <img src="imagenes/spider500px.jpg" alt="Ferrari SF90 Spider">
+                </picture>
+            </a>
+        </article>
+    </section>
+</main>
+<footer id="footer">
+    Alumno: Alejandro Pina Mellado-Damas<br>
+    Asignatura: TIC II<br>
+    Curso: 2020-2021<br>
+    Puedes seguirme en mis redes sociales<br>
+    <br>
+    <a href="https://www.instagram.com/aalepm_/">
+        <img src="icons/instagram.png" height="50" alt="Instagram">
+    </a>
+    <a href="https://twitter.com/aalepm_">
+        <img src="icons/Twitter.png" height="50" alt="Twitter">
+    </a>
+</footer>
 </body>
+
 </html>

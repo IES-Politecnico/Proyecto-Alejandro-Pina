@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 182, 182);
+    background-color: rgb(255, 214, 214);
 }
 
 table {
@@ -17,26 +17,20 @@ text-align: center;
 
 }
 
-#noticia1{
-    background-color: burlywood;
+#Lamborghini{
+    background-color: rgb(247, 160, 242);
 }
 
-#noticia2{
-    background-color: cadetblue;
+#Records{
+    background-color: rgb(144, 211, 238) ;
 }
 
-#noticia3{
-    background-color: olivedrab ;
+
+#Ferrari{
+    background-color: rgb(241, 98, 98);
 }
 
-#noticia4{
-    background-color: olivedrab ;
+#footer{
+    text-align: center;
 }
 
-#noticia5{
-    background-color: burlywood;
-}
-
-#noticia6{
-    background-color: cadetblue;
-}
