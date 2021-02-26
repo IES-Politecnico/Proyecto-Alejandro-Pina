@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../icons/coche-de-carreras-con-faldones-laterales.png">
+    <meta name="robots" content="all">
+    <meta name="keywords"
+        content="Ferrari, Lamborghini, McLaren, Tesla, Bugatti, Aston Martin, Porsche, Mercedes, Ford, Mazda">
+    <meta name="description"
+        content="Informacion de los nuevos y mas novedosos coches supereportivos, repasando sus especificaciones, valor de venta, etc.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso</title>
+    <link rel="stylesheet" href="../css/estilogeneral.css">
+    <style>
+        .oculto {
+            display: none;
+        }
+
+        .visible {
+            display: inline;
+        }
+    </style>
+    <script src="../javascript/formularios.js" type="text/javascript"></script>
+    <script src="../javascript/formularios2.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <form action="login" method="GET" id="login">
+        <fieldset>
+            <legend>Login</legend>
+            <p>Nombre de usuario:<input type="text" name="usuario" size="55" placeholder="Escriba su nombre de usuario"
+                    required></p>
+            <p>Contraseña:<input type="password" name="Contraseña" size="55" placeholder="Escriba su contraseña"
+                    required></p>
+            <a href="../bienvenidos/bienvenido.html">
+                <p><input type="button" value="login" action="#"></p>
+            </a>
+        </fieldset>
+    </form>
+    <form action="#" method="GET" id="entrar" class="oculto">
+
+        <fieldset>
+            <legend>Register</legend>
+            <p>Nombre de usuario: <input type="text" name="Nombre de usuario" minlength="6"
+                    placeholder="Escriba su nombre de usuario" size="50" required></p>
+            <p>Contraseña:<input type="password" id="contraseña" name="contraseña" minlength="8"
+                    placeholder="Escriba su contraseña" size="50" required>
+                <span id="verde" style="color: rgb(36, 209, 36);"></span><span id="rojo" style="color: red;"></span>
+            </p>
+            <p>Repetir la contraseña:<input type="password" id="contraseña2" name="contraseña2" minlength="8"
+                    placeholder="Escriba su contraseña" size="50" required>
+            </p>
+            <p>E-mail: <input type="email" name="email" placeholder="Direccion de E-mail" size="50"></p>
+            <p>Número de teléfono: <input type="tel" name="telefono" placeholder="Numero de telefono" size="50"></p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+            <p>Codigo postal: <input type="text" name="codigo postal" placeholder="codigo postal" size="50">
+            <p>
+                <input type="button" value="Enviar" action="#" onclick="verificacion()">
+                <input type="reset" name="borrar" value="Borrar">
+            </p>
+        </fieldset>
+    </form>
+    <p><input type="button" value="Login" id="Cambiar_a_ingreso" class="oculto" onclick="login()"></p>
+    <p><input type="button" value="Register" id="Cambiar_a_registro" class="visible" onclick="registro()"></p>
+    <p><a href="../index.html"><img src="../icons/volver_atras.png" height="50" alt="volver atras"></a>
+    </p>
+    <footer id="footer">
+        Alumno: Alejandro Pina Mellado-Damas<br>
+        Asignatura: TIC II<br>
+        Curso: 2020-2021<br>
+        Puedes seguirme en mis redes sociales<br>
+        <br>
+        <a href="https://www.instagram.com/aalepm_/">
+            <img src="../icons/instagram.png" height="50" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/aalepm_">
+            <img src="../icons/Twitter.png" height="50" alt="Twitter">
+        </a>
+    </footer>
+</body>
+
+</html>
